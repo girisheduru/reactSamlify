@@ -1,0 +1,26 @@
+{
+  "name": "react-on-express-samlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@authenio/samlify-node-xmllint": "^2.0.0",
+    "app-root-path": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "express-chrome-logger": "^0.1.5",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "samlify": "^2.7.4"
+  }
+}
